@@ -24,9 +24,18 @@
     padding:10px;
     list-style-type: none;
     background-color: #cde;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
-.note-date {
+.note__title {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+.note__date {
     font-size:0.7em;
     margin-bottom: 10px;
     display: block;
